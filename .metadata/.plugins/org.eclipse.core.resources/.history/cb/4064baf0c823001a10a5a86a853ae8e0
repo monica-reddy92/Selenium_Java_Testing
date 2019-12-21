@@ -1,0 +1,13 @@
+package com.CoreJava;
+
+public class Datatypes {
+
+	public static void main(String[] args) 
+	{
+		short a=10;
+		short b=20;
+		short c=a+b;
+		System.out.println(c);
+	}
+
+}

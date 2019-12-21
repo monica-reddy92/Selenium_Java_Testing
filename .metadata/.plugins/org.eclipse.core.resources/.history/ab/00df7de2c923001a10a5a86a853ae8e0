@@ -1,0 +1,19 @@
+package com.CoreJava;
+
+public class Operators {
+
+	public static void main(String[] args) 
+	{
+		int a=10,b=20;
+		int c;
+		c=a++ + b++;
+		System.out.println(c); //30
+		c=++a + ++b;
+		System.out.println(c); //34
+		c=a-- - b--;
+		System.out.println(c);
+		c=--a - --b;
+		System.out.println(c);
+	}
+
+}
